@@ -1,0 +1,19 @@
+{
+    "description": "Validation PHPunit",
+    "authors": [
+      {
+        "name": "Validation"
+      }
+    ],
+    "require": {},
+    "require-dev": {
+      "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Tests\\": "tests/"
+      }
+    }
+  }
